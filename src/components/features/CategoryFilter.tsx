@@ -23,7 +23,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ selectedCategory, setSe
   return (
     <div className="py-3 border-b sticky top-16 bg-white z-10">
       <div className="container px-4 mx-auto md:px-6">
-        <ScrollArea orientation="horizontal" className="w-full">
+        <ScrollArea className="w-full">
           <div className="flex space-x-2 pb-1">
             {categories.map((category) => (
               <Button

@@ -45,7 +45,7 @@ const StoryBar = () => {
   return (
     <div className="bg-white py-4 border-b">
       <div className="container px-4 mx-auto md:px-6">
-        <ScrollArea orientation="horizontal" className="w-full pb-4">
+        <ScrollArea className="w-full pb-4">
           <div className="flex">
             {stories.map((story) => (
               <StoryItem
